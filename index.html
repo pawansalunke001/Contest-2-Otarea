@@ -9,28 +9,39 @@
 </head>
 
 <body>
+    <!-- Header (Navbar) -->
     <div class="blocks">
+        <!-- Navbar constructed using <nav> and <ul> HTML elements -->
+        <!-- nav and ul elements for Header navbar -->
         <nav id="header" class="flex-container">
-            <ul class="flex-container head1" style="list-style: none;">
-                <li class=""><a href="#"><img src="./img/logo.svg" /></a></li>
+            <ul class="flex-container head1" style="list-style: none">
+                <li class="">
+                    <!-- logo and navigation links -->
+                    <a href="#"><img src="./img/logo.svg" /></a>
+                </li>
                 <li>
                     <a href="#" class="navtxt">
-                        <span style=" font-size: 39px; color: #373737;">Otarea<span style="color: #2B7AC1;">.in</span></span>
+                        <span style="font-size: 39px; color: #373737">Otarea<span
+                                style="color: #2b7ac1">.in</span></span>
                     </a>
                 </li>
                 <li>
-                    <div id="blog" class="flex-container navtxt"> <img src="./img/vert_line.svg" /></div>
+                    <div id="blog" class="flex-container navtxt">
+                        <img src="./img/vert_line.svg" />
+                    </div>
                 </li>
                 <li>
                     <a href="#" class="navtxt">Blog</a>
                 </li>
             </ul>
-            <ul class="flex-container head1" style="list-style: none;"> 
+            <ul class="flex-container head1" style="list-style: none">
                 <li id="cart">
-                    <a href="#" class="navtxt"><img src="./img/archieves.svg" /><span style="padding-left:10px;">Archieves</span></a>
+                    <a href="#" class="navtxt"><img src="./img/archieves.svg" /><span
+                            style="padding-left: 10px">Archieves</span></a>
                 </li>
                 <li id="cart">
-                    <a href="#" class="navtxt"><img src="./img/cart.svg" /><span style="padding-left:10px;">Store</span></a>
+                    <a href="#" class="navtxt"><img src="./img/cart.svg" /><span
+                            style="padding-left: 10px">Store</span></a>
                 </li>
                 <li id="cart">
                     <a href="#" class="navtxt"><button id="quote_button">Get a Quote</button></a>
@@ -38,8 +49,11 @@
             </ul>
         </nav>
     </div>
+
+    <!-- Hero Section (Main Section) -->
     <div id="Banner1" class="blocks flex-container">
-        <div style="margin-top: 150px;">
+        <!-- text on the left and an image on the right -->
+        <div style="margin-top: 150px">
             <div id="explore">
                 Let's Explore <br />
                 New Possibilities
@@ -61,24 +75,31 @@
         </div>
     </div>
 
-    <div>
-        <div id="Banner2" class="blocks flex-container">
-            <div><img src="./img/robot_hand.svg" /></div>
-            <div>
-                <h1 id="latestpost">Latest post heading sample tex..</h1>
-                <div style="margin-bottom: 45px;">
-                    <span class="bywriter"style="float: left;">By Writter Name</span>
-                    <span class="bywriter" style="float: right;"> 23 Dec.</span>
-                </div><br />
-                <p id="robopost">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-                </p>
+    <!-- Latest Blog Section -->
+    <!--   image on the left and blog content on the right -->
+    <div id="Banner2" class="blocks flex-container">
+        <div><img src="./img/robot_hand.svg" /></div>
+        <div>
+            <h1 id="latestpost">Latest post heading sample tex..</h1>
+            <div style="margin-bottom: 45px">
+                <span class="bywriter" style="float: left">By Writter Name</span>
+                <span class="bywriter" style="float: right"> 23 Dec.</span>
             </div>
+            <br />
+            <!-- p tag for text -->
+            <p id="robopost">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur. Excepteur sint occaecat cupidatat non proident.
+            </p>
         </div>
     </div>
 
+    <!-- More Blogs Section -->
+    <!-- three additional blogs arranged with flexbox -->
     <div class="flex-container blocks" id="cards">
         <div class="card">
             <div class="card-header">
@@ -86,16 +107,37 @@
             </div>
             <div class="card-body">
                 <div>
-                    <div class="cardHead">Other post heading sample tex...</div><br/>
-                    <div class="cardHeadBy" style="float: left;">By Writter Name</div>
-                    <div class="cardHeadBy" style="float: right;">23 Dec.</div><br/>
-                    <p class="cardDescr">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua.”</p>
+                    <div class="cardHead">Other post heading sample tex...</div>
+                    <br />
+                    <div class="cardHeadBy" style="float: left">By Writter Name</div>
+                    <div class="cardHeadBy" style="float: right">23 Dec.</div>
+                    <br />
+                    <!-- tags for the text -->
+                    <p class="cardDescr">
+                        “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.”
+                    </p>
                 </div>
-
             </div>
-            <div class="card-footer">
-                See full
+            <div class="card-footer">See full</div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <img src="./img/bulb.svg" />
+            </div>
+            <div class="card-body">
+                <div>
+                    <div class="cardHead">Other post heading sample tex...</div>
+                    <br />
+                    <div class="cardHeadBy" style="float: left">By Writter Name</div>
+                    <div class="cardHeadBy" style="float: right">23 Dec.</div>
+                    <br />
+                    <!-- tags for the text -->
+                    <p class="cardDescr">
+                        “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.”
+                    </p>
+                </div>
             </div>
         </div>
         <div class="card">
@@ -104,49 +146,36 @@
             </div>
             <div class="card-body">
                 <div>
-                    <div class="cardHead">Other post heading sample tex...</div><br/>
-                    <div class="cardHeadBy" style="float: left;">By Writter Name</div>
-                    <div class="cardHeadBy" style="float: right;">23 Dec.</div><br/>
-                    <p class="cardDescr">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua.”</p>
+                    <div class="cardHead">Other post heading sample tex...</div>
+                    <br />
+                    <div class="cardHeadBy" style="float: left">By Writter Name</div>
+                    <div class="cardHeadBy" style="float: right">23 Dec.</div>
+                    <br />
+                    <!-- tags for the text -->
+                    <p class="cardDescr">
+                        “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.”
+                    </p>
                 </div>
-
             </div>
-        </div>
-        <div class="card">
-            <div class="card-header">
-                <img src="./img/bulb.svg" />
-            </div>
-            <div class="card-body">
-                <div>
-                    <div class="cardHead">Other post heading sample tex...</div><br />
-                    <div class="cardHeadBy" style="float: left;">By Writter Name</div>
-                    <div class="cardHeadBy" style="float: right;">23 Dec.</div><br/>
-                    <p class="cardDescr">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua.”</p>
-                </div>
-
-            </div>
-            <div class="card-footer">
-                See full
-            </div>
+            <div class="card-footer">See full</div>
         </div>
     </div>
 
+    <!-- Footer -->
+    <!-- text on the left and an image on the right -->
+    <!-- placement of tags for the text and the assets -->
     <div id="Banner3" class="flex-container blocks">
         <div class="download_now_banner">
-            <span style="font-size: 40px; font-weight: 300;">Download</span><br />
+            <span style="font-size: 40px; font-weight: 300">Download</span><br />
             <span>Otarea Educore App</span><br />
-            <span style="font-size: 35px; font-weight: 300;">For non stop learning</span><br />
+            <span style="font-size: 35px; font-weight: 300">For non stop learning</span><br />
             <button id="downloadNowBtn">Download now</button>
         </div>
         <div>
             <img class="download_now_banner" src="./img/download_now_banner.svg" />
         </div>
     </div>
-
-
-
 </body>
 
 </html>
